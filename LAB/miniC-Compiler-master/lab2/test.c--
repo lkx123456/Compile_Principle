@@ -1,0 +1,37 @@
+int a,b,c;
+float m,n;
+char xxxx;
+// struct TS
+// {
+//     int t;
+//    float s;
+// } testTs2;
+
+int fibo(int a)
+{
+    if (a == 1 || a == 2) return (a-1);
+    return fibo(a-1)+fibo(a-2);
+}
+
+int main()
+{
+    int m,n,i;
+    // int c[10];
+    char ch;
+    float f;
+    string str;
+    m = read();
+    i=1;
+    //错误
+    jojo = 12;///未定义变量
+    3 = m;
+    m = add(3,4);
+    //错误
+    while(i<=m)
+    {
+        n = fibo(i);
+        write(n);
+        i=i+1;
+    }
+    return 1;
+}
